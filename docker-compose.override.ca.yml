@@ -1,0 +1,5 @@
+minidlna:
+  volumes:
+    - ${HOME}/Imatges/:/var/lib/minidlna/Pictures/:ro
+    - ${HOME}/Música/:/var/lib/minidlna/Music/:ro
+    - ${HOME}/Vídeos/:/var/lib/minidlna/Video/:ro
