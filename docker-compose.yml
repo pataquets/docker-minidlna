@@ -5,6 +5,6 @@ minidlna:
   restart: unless-stopped
   net: host
   volumes:
-    - $HOME/Music/:/var/lib/minidlna/Music:ro
-    - $HOME/Pictures/:/var/lib/minidlna/Pictures/:ro
-    - $HOME/Videos/:/var/lib/minidlna/Video/:ro
+    - ${HOME}/Music/:/var/lib/minidlna/Music:ro
+    - ${HOME}/Pictures/:/var/lib/minidlna/Pictures/:ro
+    - ${HOME}/Videos/:/var/lib/minidlna/Video/:ro
