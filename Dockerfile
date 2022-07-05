@@ -1,4 +1,4 @@
-FROM pataquets/ubuntu:focal
+FROM ubuntu:jammy
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN \
